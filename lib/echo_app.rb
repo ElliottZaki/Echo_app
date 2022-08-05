@@ -9,10 +9,10 @@ class Echo_app
     return time.strftime("%d/%m/%Y") + (" | ") + time.strftime("%k:%M") + (" | ") 
   end
 
-  # def echo
-  #   prompt_input
-  #   input = gets.chomp
-  #   puts "#{return_time}" + "You said: #{input}" 
-  # end
+  def echo
+    prompt_input
+    input = gets.chomp
+    puts "#{return_time}" + "You said: #{input}" 
+  end
 
 end
