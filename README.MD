@@ -23,8 +23,9 @@ rspec --init <br />
 
 # How to run programme: <br />
 On CML type: <br />
-cd echo-app <br />
-open <br />
+cd echo_app <br />
+cd lib <br />
+ruby -r "./echo_app.rb" -e "Echo_app.new.echo" <br />
 
 # How to run tests: <br />
 On CML type: <br />
@@ -42,5 +43,10 @@ I'd like the app to prompt the user to say somthing. <br />
 As a programmer, <br />
 So that I can create an echo app, <br />
 I'd like the app to repeat the user's input. <br />
+
+# User Story 3:
+As a programmer, <br />
+So that I can create an echo app, <br />
+I'd like to create a forever loop until the user types "exit". <br />
 
 
