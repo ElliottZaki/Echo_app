@@ -32,7 +32,7 @@ On CML type: <br />
 rspec <br />
 
 # Build status: <br />
-Testing <br />
+Completed <br />
 
 # User Story 1: <br />
 As a programmer, <br />
